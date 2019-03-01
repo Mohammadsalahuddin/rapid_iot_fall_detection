@@ -20,7 +20,8 @@ try:
        
         #converting bytearray to normal value and accessing the actual value(in Tuple)
         
-        fall_value = struct.unpack('i',fall_data)     
+	print fall_data
+        fall_value = struct.unpack('?',fall_data)     
         fall_value1 = fall_value[0]     
 
         #Printing the obtained values
@@ -29,7 +30,7 @@ try:
         print "----------------------------------------------------------------"
 
         
-        time.sleep(5)      #A time delay of 5 seconds before reading the value
+        time.sleep(1)      #A time delay of 5 seconds before reading the value
         
     
 finally:
