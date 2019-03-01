@@ -16,7 +16,7 @@ try:
 
         # Value fetching, can be done with a loop too but I did this for easy interpretation
         
-        fall_data = rapid_iot.char_read("227b5ea3-54f4-423c-95e4-7f9f10a78508")    #Fall Detection data    
+        fall_data = rapid_iot.char_read("ef771bab-10ff-4cdf-98f1-86e8a136423a")    #Fall Detection data    
        
         #converting bytearray to normal value and accessing the actual value(in Tuple)
         
